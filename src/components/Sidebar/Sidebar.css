@@ -1,0 +1,29 @@
+.sidebar li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.sidebar a:hover {
+  background-color: #e6f0ff;
+  color: #3e8df7;
+}
+:root {
+  --primary-blue: #3e8df7;
+  --accent-green: #48c78e;
+  --accent-red: #ff5b5b;
+  --gray-bg: #f5f9ff;
+  --card-bg: #ffffff;
+}

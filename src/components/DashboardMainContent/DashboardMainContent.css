@@ -1,0 +1,10 @@
+.dashboard-main-content {
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.dashboard-sections {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}

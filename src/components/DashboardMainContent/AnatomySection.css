@@ -1,0 +1,34 @@
+.anatomy-section {
+  flex: 1;
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.anatomy-image {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.anatomy-indicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.indicator {
+  font-weight: 500;
+}
+
+.healthy {
+  color: #28a745;
+}
+
+.issue {
+  color: #dc3545;
+}

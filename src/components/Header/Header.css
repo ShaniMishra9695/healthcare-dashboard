@@ -1,0 +1,44 @@
+.header {
+  background: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.add-button {
+  background-color: #3e8df7;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}

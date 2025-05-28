@@ -1,0 +1,25 @@
+.health-status-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.status-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.status-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.status-card .healthy {
+  color: #28a745;
+}
+
+.status-card .issue {
+  color: #dc3545;
+}
